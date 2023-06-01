@@ -10,7 +10,6 @@
 		EC792AD52A21F86B00880E10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC792AD42A21F86B00880E10 /* AppDelegate.swift */; };
 		EC792AD72A21F86B00880E10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC792AD62A21F86B00880E10 /* SceneDelegate.swift */; };
 		EC792AD92A21F86B00880E10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC792AD82A21F86B00880E10 /* ViewController.swift */; };
-		EC792ADC2A21F86B00880E10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC792ADA2A21F86B00880E10 /* Main.storyboard */; };
 		EC792ADE2A21F86C00880E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC792ADD2A21F86C00880E10 /* Assets.xcassets */; };
 		EC792AE12A21F86C00880E10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC792ADF2A21F86C00880E10 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 		EC792AD42A21F86B00880E10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC792AD62A21F86B00880E10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EC792AD82A21F86B00880E10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EC792ADB2A21F86B00880E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC792ADD2A21F86C00880E10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC792AE02A21F86C00880E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC792AE22A21F86C00880E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 				EC792AD42A21F86B00880E10 /* AppDelegate.swift */,
 				EC792AD62A21F86B00880E10 /* SceneDelegate.swift */,
 				EC792AD82A21F86B00880E10 /* ViewController.swift */,
-				EC792ADA2A21F86B00880E10 /* Main.storyboard */,
 				EC792ADD2A21F86C00880E10 /* Assets.xcassets */,
 				EC792ADF2A21F86C00880E10 /* LaunchScreen.storyboard */,
 				EC792AE22A21F86C00880E10 /* Info.plist */,
@@ -127,7 +124,6 @@
 			files = (
 				EC792AE12A21F86C00880E10 /* LaunchScreen.storyboard in Resources */,
 				EC792ADE2A21F86C00880E10 /* Assets.xcassets in Resources */,
-				EC792ADC2A21F86B00880E10 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EC792ADA2A21F86B00880E10 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC792ADB2A21F86B00880E10 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EC792ADF2A21F86C00880E10 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
