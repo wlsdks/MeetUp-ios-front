@@ -23,3 +23,7 @@ private extension ViewController {
     
 }
 
+private extension ViewController: UITableViewDelegate {
+    
+}
+
